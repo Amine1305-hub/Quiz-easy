@@ -25,7 +25,61 @@ const questions = [
       { text: "Brazil", correct: false },
       { text: "India", correct: false }
     ]
-  }
+  },
+  {
+    question: "Who painted the Mona Lisa?",
+    answers: [
+      { text: "Vincent van Gogh", correct: false },
+      { text: "Pablo Picasso", correct: false },
+      { text: "Leonardo da Vinci", correct: true },
+      { text: "Michelangelo", correct: false }
+    ]
+  },
+  {
+    question: "What is the hardest natural substance on Earth?",
+    answers: [
+      { text: "Gold", correct: false },
+      { text: "Diamond", correct: true },
+      { text: "Iron", correct:false },
+      { text: "Quartz", correct: false }
+    ]
+  },
+  {
+    question: "What is the chemical symbol for water?",
+    answers: [
+      { text: "O2", correct: false },
+      { text: "CO2", correct:false },
+      { text: "H2O", correct:true },
+      { text: "HO2", correct: false }
+    ]
+  },
+  {
+    question: "Which planet is known as ther RED PLANET?",
+    answers: [
+      { text: "Venus", correct: false },
+      { text: "juptier", correct:false },
+      { text: "Mars", correct:true },
+      { text: "Saturn", correct: false }
+    ]
+  },
+  {
+    question: "Which country won the FIFA World Cup in 2018?",
+    answers: [
+      { text: "Brazil", correct: false },
+      { text: "France", correct:true },
+      { text: "Germany", correct:false },
+      { text: "Argentina", correct: false }
+    ]
+  },
+   {
+    question: "In basketball, how many points is a free throw worth?",
+    answers: [
+      { text: "1", correct: true },
+      { text: "2", correct:false },
+      { text: "3", correct:false },
+      { text: "4", correct: false }
+    ]
+  },
 ];
 
 const questionElement = document.getElementById("question");
@@ -111,3 +165,4 @@ nextButton.addEventListener("click", () => {
 });
 
 startQuiz();
+
